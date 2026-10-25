@@ -14,22 +14,33 @@
 </div></header>
 <main><div class="wrap">
 <h1>Privacy Policy</h1>
-<p class="muted">Last updated: October 25, 2026</p>
+<p class="muted">Last updated: October 26, 2026</p>
 <p>This policy explains how <b>Vesper Uploader</b> ("the app") handles information. The app is an internal tool used only by the owner of the Vesper YouTube channel to upload the channel's own videos.</p>
-<h2>What the app accesses</h2>
-<p>When the channel owner signs in with Google, the app requests permission to upload videos to that owner's YouTube channel (YouTube Data API, upload scope). It uses this permission only to upload, title and describe the channel's own videos.</p>
+<h2>YouTube API Services</h2>
+<p>The app uses <b>YouTube API Services</b> (YouTube Data API v3). By using the app you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. The <a href="https://policies.google.com/privacy">Google Privacy Policy</a> (http://www.google.com/policies/privacy) applies to any data handled by Google.</p>
+<h2>What information the app accesses, uses and stores</h2>
+<ul>
+  <li><b>Accessed:</b> with the channel owner's permission (Google sign-in, OAuth 2.0, scope <code>youtube.upload</code> only), the app can upload videos to the owner's own YouTube channel.</li>
+  <li><b>Used:</b> this permission is used only to upload the channel's own finished videos with their title, description, tags, category, "made for kids" setting and publish time.</li>
+  <li><b>Stored:</b> only the OAuth refresh token, kept as an encrypted secret of the owner's private GitHub repository that runs the uploads. The app does not read or store any YouTube data (no viewer, channel, comment or analytics data).</li>
+  <li><b>Shared:</b> nothing. No information is sold, shared with third parties or used for advertising.</li>
+</ul>
 <h2>What the app does not do</h2>
 <ul>
-  <li>It does not collect, sell or share personal information of viewers or any other people.</li>
+  <li>It does not collect personal information of viewers or any other people.</li>
   <li>It is not offered to the public and is not used to access anyone else's account.</li>
   <li>It does not use Google user data for advertising.</li>
 </ul>
-<h2>Storage and security</h2>
-<p>The sign-in token is stored only on the channel owner's private server, so uploads can run on a schedule. It is never published or shared. The owner can revoke access at any time in their Google Account under <a href="https://myaccount.google.com/permissions">Third-party apps with account access</a>.</p>
-<h2>YouTube API Services</h2>
-<p>The app uses YouTube API Services. By using it you are also bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies to data handled by Google.</p>
+<h2>Cookies and device information</h2>
+<p>This website and the app do not use cookies and do not store, access or collect any information on or from users' devices.</p>
+<h2>Revoking access</h2>
+<p>The owner can revoke the app's access at any time on the Google security settings page: <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a> (Google Account &rarr; Security &rarr; Third-party apps with account access).</p>
+<h2>Data retention and deletion</h2>
+<p>The app keeps no YouTube API data, so there is nothing to retain. The stored token is deleted from the repository's secrets when access is revoked or no longer needed, and in any case within 7 days of a deletion request. Videos uploaded to YouTube stay on YouTube and can be deleted there by the channel owner at any time.</p>
 <h2>Children</h2>
 <p>Vesper videos are made for kids and are marked as made for kids on YouTube. The app itself is not used by children and collects no information from them.</p>
+<h2>Changes</h2>
+<p>This policy may be updated. The date at the top shows the latest version.</p>
 <h2>Contact</h2>
 <p>Questions about this policy can be sent through the <a href="https://www.youtube.com/@VesperExplained">Vesper YouTube channel</a>.</p>
 </div></main>
